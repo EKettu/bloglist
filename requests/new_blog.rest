@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI1YTg1NTMzYjkzMTRkMWMwZGIzYmJmN2IiLCJpYXQiOjE1MTg2OTczNTN9.12waQidT6bwxGBs4GM9Nhk7BsUDn0wh7xqOsu4Q5GvE
+
+{
+   "title": "BlogWithLogin2",
+   "author": "L. Ogin",
+   "url": "loginIsAMust.com"
+}

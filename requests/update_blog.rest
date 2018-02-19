@@ -1,0 +1,9 @@
+PUT http://localhost:3003/api/blogs/5a8193cdd9d857a18eed4701
+content-type: application/json
+
+{
+   "title": "MyAnotherBlog2",
+   "author": "Edgar Allan Poe",
+   "url": "mysteryblog2.com",
+   "likes": 10
+}
